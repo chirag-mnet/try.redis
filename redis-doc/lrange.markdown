@@ -16,7 +16,7 @@ element and so on.
 
 Indexes out of range will not produce an error: if start is over the end of the
 list, or start <tt>></tt> end, an empty list is returned. If end is over the end
-of the list Redis will threat it just like the last element of the list.
+of the list Redis will treat it just like the last element of the list.
 
 **RETURN VALUE**:
 A multi bulk reply of a list of elements in the specified range.
